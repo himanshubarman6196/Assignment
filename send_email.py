@@ -38,7 +38,7 @@ if __name__ == '__main__':
     logging.info(f'Please enter the sender email and password in the script before executing and allow less secure app on google account')
     subject = input("Please enter the subject - >")
     body = input("Please enter the body - >")
-    recipient = input("Please enter the subject - >")
+    recipient = input("Please enter the recipient - >")
 
     message = f""" Subject: {subject}
 
