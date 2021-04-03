@@ -8,8 +8,9 @@ logging.basicConfig(level = logging.INFO)
 """ global variables for smtp """
 smtp_server = "smtp.gmail.com"
 port = 587
-sender_email = ""
-password = ""
+sender_email = "Enter the sender email address" 
+
+password = "Enter the password of send address"
 
 """ for tracking event """
 import logging
